@@ -1,4 +1,8 @@
-# Terraform AWS EC2 Setup
+   
+   # Automating EC2 Instance Deployment and Security Agent Installation with Terraform and AWS Systems Manager
+
+   ![PORTFOLIO PROJECTS_AWS - MODULE 5_THUMBNAIL](https://github.com/user-attachments/assets/d9c5a250-f981-4871-bf7a-58d153d6548a)
+
 
 This project automates the deployment of EC2 instances on AWS using Terraform. It includes the necessary configurations to set up the infrastructure, install a security agent, and manage notifications through AWS Systems Manager and Amazon SNS.
 
@@ -63,11 +67,17 @@ terraform-aws-ec2-setup
 6. **Set Up Notifications**
    Configure Amazon SNS to receive notifications about the installation status. Ensure you confirm your email subscription to the SNS topic.
 
+
+
+
 ## Usage
 
 - After running `terraform apply`, you can check the AWS Management Console for the created resources.
 - Use AWS Systems Manager to manage and monitor the EC2 instances.
 - Check your email for notifications regarding the installation process.
+
+  ![1-PORTFOLIO PROJECTS_AWS - MODULE 5_ARCHITECTURE](https://github.com/user-attachments/assets/e09a3384-8d18-4969-929e-b70891bffb54)
+
 
 ## Conclusion
 
